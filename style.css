@@ -1,4 +1,36 @@
 *{
     font-family: "Work Sans", sans-serif;
-    
+
 }
+/* Header Styles */
+
+header{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(19, 19, 19);
+}
+
+nav > ul{
+    display: flex;
+}
+ nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 18px;
+ }
+
+ nav li a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+ }
